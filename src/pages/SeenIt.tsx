@@ -56,7 +56,7 @@ const SeenIt = () => {
       <h1 className='pageHeader'>Seen It</h1>
       {(!alreadyWatchedFilms?.length || alreadyWatchedFilms.length === 0) ? (
         <h1 style={{ margin: '16px 0' }} className="emptyMessage">
-          Add films you've already seen here.
+          Add films you've already seen here!
         </h1>
       ) : (
         <FilmsAlreadySeen
